@@ -19,7 +19,7 @@
 
 Name:           iris
 Summary:        Infrastructure and Release Information System
-Version:        0.1.2
+Version:        0.1.3
 
 %if 0%{?opensuse_bs}
 Release:        0.dev.<CI_CNT>.<B_CNT>
@@ -104,8 +104,6 @@ Summary:        Core
 
 Requires:       apache2
 Requires:       apache2-mod_wsgi
-Requires:       mysql-community-server
-Requires:       mysql-community-server-client
 Requires:       python >= 2.6
 Requires:       python-xml
 Requires:       python-setuptools
@@ -174,6 +172,7 @@ fi
 %{_bindir}/update_iris_data.sh
 %{_bindir}/import_snapshot.py
 %{_bindir}/download_snapshots.py
+%{_bindir}/scmlint.py
 
 %changelog %{core_name}
 
