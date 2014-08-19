@@ -34,6 +34,7 @@ ADMINS = (
     ('Eduard Bartosh', 'eduard.bartosh@intel.com'),
     ('Hao Huang', 'hao.h.huang@intel.com'),
     ('Jing-Fiang Deng', 'jian-feng.ding@intel.com'),
+    ('Gao XueSong', 'xuesongx.gao@intel.com'),
 )
 
 MANAGERS = ADMINS
