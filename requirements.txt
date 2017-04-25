@@ -1,4 +1,4 @@
-python-ldap==2.4.32
+python-ldap==2.4.33
 django==1.11
 django-auth-ldap==1.2.11
 South==1.0.2
