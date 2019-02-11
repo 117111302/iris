@@ -1,5 +1,5 @@
 python-ldap==3.1.0
-django==2.1.5
+django==2.1.6
 django-auth-ldap==1.7.0
 South==1.0.2
 djangorestframework==3.9.1
